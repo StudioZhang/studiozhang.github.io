@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>MarkDown语法教学 | 小张Studio</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://studiozhang.github.io//favicon.ico?v=1742633882561">
+<link rel="stylesheet" href="https://studiozhang.github.io//styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="Markdown 是一种轻量级标记语言，用简单的符号即可实现排版（如标题、列表、加粗等），兼容性强，适合编写文档、笔记、博客等。以下是基础语法整理：
+
+一、基础语法
+1. 标题
+# 一级标题
+## 二级标题
+### 三级标题
+（最多支持六级..." />
+    <meta name="keywords" content="教学" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://studiozhang.github.io/">
+        <img src="https://studiozhang.github.io//images/avatar.png?v=1742633882561" class="site-logo">
+        <h1 class="site-title">小张Studio</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      小张Studio工作室官方网站
+    </div>
+    <div class="site-footer">
+      Powered by ZStudio | <a class="rss" href="https://studiozhang.github.io//atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">MarkDown语法教学</h2>
+            <div class="post-date">2025-03-22</div>
+            
+              <div class="feature-container" style="background-image: url('https://studiozhang.github.io//post-images/mdturorio.jpg')">
+              </div>
+            
+            <div class="post-content" v-pre>
+              <p>Markdown 是一种轻量级标记语言，用简单的符号即可实现排版（如标题、列表、加粗等），兼容性强，适合编写文档、笔记、博客等。以下是基础语法整理：</p>
+<hr>
+<h3 id="一-基础语法"><strong>一、基础语法</strong></h3>
+<h4 id="1-标题">1. 标题</h4>
+<pre><code class="language-markdown"># 一级标题
+## 二级标题
+### 三级标题
+（最多支持六级标题，用 `#` 数量控制）
+</code></pre>
+<h4 id="2-文本强调">2. 文本强调</h4>
+<pre><code class="language-markdown">*斜体* 或 _斜体_
+**粗体** 或 __粗体__
+***粗斜体*** 或 ___粗斜体___
+~~删除线~~
+</code></pre>
+<h4 id="3-列表">3. 列表</h4>
+<ul>
+<li>
+<p><strong>无序列表</strong>（用 <code>-</code>、<code>+</code> 或 <code>*</code>）：</p>
+<pre><code class="language-markdown">- 项目1
+- 项目2
+  - 子项目（缩进2空格）
+</code></pre>
+</li>
+<li>
+<p><strong>有序列表</strong>（数字+点）：</p>
+<pre><code class="language-markdown">1. 第一项
+2. 第二项
+   1. 子项
+</code></pre>
+</li>
+</ul>
+<h4 id="4-链接与图片">4. 链接与图片</h4>
+<pre><code class="language-markdown">[链接文字](https://example.com)
+![图片描述](图片路径/URL)
+</code></pre>
+<h4 id="5-代码">5. 代码</h4>
+<ul>
+<li>行内代码：用反引号包裹<br>
+<code>`print(&quot;Hello&quot;)`</code></li>
+<li>代码块：用三个反引号包裹（可指定语言）<pre><code class="language-markdown">```python
+print(&quot;Hello World&quot;)
+```
+</code></pre>
+</li>
+</ul>
+<h4 id="6-引用">6. 引用</h4>
+<pre><code class="language-markdown">&gt; 引用内容
+&gt; 多行引用
+</code></pre>
+<h4 id="7-分割线">7. 分割线</h4>
+<p>用三个 <code>-</code>、<code>*</code> 或 <code>_</code>：</p>
+<pre><code class="language-markdown">---
+</code></pre>
+<h4 id="8-换行与段落">8. 换行与段落</h4>
+<ul>
+<li>段落间空一行</li>
+<li>行末加两个空格 + 回车 = 换行</li>
+</ul>
+<hr>
+<h3 id="二-扩展语法部分平台支持"><strong>二、扩展语法（部分平台支持）</strong></h3>
+<h4 id="1-表格">1. 表格</h4>
+<pre><code class="language-markdown">| 列1 | 列2 |
+|-----|-----|
+| 内容 | 内容 |
+</code></pre>
+<p>对齐方式：<br>
+<code>| :--- | :---: | ---: |</code>（左对齐、居中、右对齐）</p>
+<h4 id="2-任务列表">2. 任务列表</h4>
+<pre><code class="language-markdown">- [x] 已完成
+- [ ] 未完成
+</code></pre>
+<h4 id="3-脚注">3. 脚注</h4>
+<pre><code class="language-markdown">文本[^1]
+[^1]: 脚注内容
+</code></pre>
+<h4 id="4-目录部分工具支持">4. 目录（部分工具支持）</h4>
+<pre><code class="language-markdown">[TOC]
+</code></pre>
+<hr>
+<h3 id="三-推荐工具"><strong>三、推荐工具</strong></h3>
+<ul>
+<li>编辑器：VS Code、Typora、Obsidian</li>
+<li>在线工具：Markdown Nice、StackEdit</li>
+<li>支持平台：GitHub、Notion、语雀</li>
+</ul>
+<hr>
+<p>掌握以上语法后，可快速排版清晰易读的文档。不同平台可能支持额外语法，建议查阅具体文档哦！</p>
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=112898902855557&bvid=BV1uxv9eEE2M&cid=500001637738607&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://studiozhang.github.io/tag/N4rm2ZO49H/" class="tag">
+                    教学
+                  </a>
+                
+              </div>
+            
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>

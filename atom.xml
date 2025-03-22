@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://studiozhang.github.io/</id>
+    <title>小张Studio</title>
+    <updated>2025-03-22T08:59:00.454Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://studiozhang.github.io/"/>
+    <link rel="self" href="https://studiozhang.github.io/atom.xml"/>
+    <subtitle>小张Studio工作室官方网站</subtitle>
+    <logo>https://studiozhang.github.io/images/avatar.png</logo>
+    <icon>https://studiozhang.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2025, 小张Studio</rights>
+    <entry>
+        <title type="html"><![CDATA[MarkDown语法教学]]></title>
+        <id>https://studiozhang.github.io/post/mdturorio/</id>
+        <link href="https://studiozhang.github.io/post/mdturorio/">
+        </link>
+        <updated>2025-03-22T08:18:35.000Z</updated>
+        <content type="html"><![CDATA[<p>Markdown 是一种轻量级标记语言，用简单的符号即可实现排版（如标题、列表、加粗等），兼容性强，适合编写文档、笔记、博客等。以下是基础语法整理：</p>
+<hr>
+<h3 id="一-基础语法"><strong>一、基础语法</strong></h3>
+<h4 id="1-标题">1. 标题</h4>
+<pre><code class="language-markdown"># 一级标题
+## 二级标题
+### 三级标题
+（最多支持六级标题，用 `#` 数量控制）
+</code></pre>
+<h4 id="2-文本强调">2. 文本强调</h4>
+<pre><code class="language-markdown">*斜体* 或 _斜体_
+**粗体** 或 __粗体__
+***粗斜体*** 或 ___粗斜体___
+~~删除线~~
+</code></pre>
+<h4 id="3-列表">3. 列表</h4>
+<ul>
+<li>
+<p><strong>无序列表</strong>（用 <code>-</code>、<code>+</code> 或 <code>*</code>）：</p>
+<pre><code class="language-markdown">- 项目1
+- 项目2
+  - 子项目（缩进2空格）
+</code></pre>
+</li>
+<li>
+<p><strong>有序列表</strong>（数字+点）：</p>
+<pre><code class="language-markdown">1. 第一项
+2. 第二项
+   1. 子项
+</code></pre>
+</li>
+</ul>
+<h4 id="4-链接与图片">4. 链接与图片</h4>
+<pre><code class="language-markdown">[链接文字](https://example.com)
+![图片描述](图片路径/URL)
+</code></pre>
+<h4 id="5-代码">5. 代码</h4>
+<ul>
+<li>行内代码：用反引号包裹<br>
+<code>`print(&quot;Hello&quot;)`</code></li>
+<li>代码块：用三个反引号包裹（可指定语言）<pre><code class="language-markdown">```python
+print(&quot;Hello World&quot;)
+```
+</code></pre>
+</li>
+</ul>
+<h4 id="6-引用">6. 引用</h4>
+<pre><code class="language-markdown">&gt; 引用内容
+&gt; 多行引用
+</code></pre>
+<h4 id="7-分割线">7. 分割线</h4>
+<p>用三个 <code>-</code>、<code>*</code> 或 <code>_</code>：</p>
+<pre><code class="language-markdown">---
+</code></pre>
+<h4 id="8-换行与段落">8. 换行与段落</h4>
+<ul>
+<li>段落间空一行</li>
+<li>行末加两个空格 + 回车 = 换行</li>
+</ul>
+<hr>
+<h3 id="二-扩展语法部分平台支持"><strong>二、扩展语法（部分平台支持）</strong></h3>
+<h4 id="1-表格">1. 表格</h4>
+<pre><code class="language-markdown">| 列1 | 列2 |
+|-----|-----|
+| 内容 | 内容 |
+</code></pre>
+<p>对齐方式：<br>
+<code>| :--- | :---: | ---: |</code>（左对齐、居中、右对齐）</p>
+<h4 id="2-任务列表">2. 任务列表</h4>
+<pre><code class="language-markdown">- [x] 已完成
+- [ ] 未完成
+</code></pre>
+<h4 id="3-脚注">3. 脚注</h4>
+<pre><code class="language-markdown">文本[^1]
+[^1]: 脚注内容
+</code></pre>
+<h4 id="4-目录部分工具支持">4. 目录（部分工具支持）</h4>
+<pre><code class="language-markdown">[TOC]
+</code></pre>
+<hr>
+<h3 id="三-推荐工具"><strong>三、推荐工具</strong></h3>
+<ul>
+<li>编辑器：VS Code、Typora、Obsidian</li>
+<li>在线工具：Markdown Nice、StackEdit</li>
+<li>支持平台：GitHub、Notion、语雀</li>
+</ul>
+<hr>
+<p>掌握以上语法后，可快速排版清晰易读的文档。不同平台可能支持额外语法，建议查阅具体文档哦！</p>
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=112898902855557&bvid=BV1uxv9eEE2M&cid=500001637738607&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>]]></content>
+    </entry>
+</feed>
