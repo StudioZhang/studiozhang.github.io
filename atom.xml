@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://studiozhang.github.io/</id>
+    <title>小张Studio</title>
+    <updated>2025-04-01T05:19:21.795Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://studiozhang.github.io/"/>
+    <link rel="self" href="https://studiozhang.github.io/atom.xml"/>
+    <subtitle>小张Studio工作室官方网站</subtitle>
+    <logo>https://studiozhang.github.io/images/avatar.png</logo>
+    <icon>https://studiozhang.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2025, 小张Studio</rights>
+    <entry>
+        <title type="html"><![CDATA[小米电脑管家Q&A]]></title>
+        <id>https://studiozhang.github.io/post/xiao-mi-dian-nao-guan-jia-qanda/</id>
+        <link href="https://studiozhang.github.io/post/xiao-mi-dian-nao-guan-jia-qanda/">
+        </link>
+        <updated>2025-03-29T08:09:28.000Z</updated>
+        <summary type="html"><![CDATA[<p>先贴上下载链接：https://www.123pan.com/s/OP5SVv-bsC4H.html<br>
+提取码:zsxm</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>先贴上下载链接：https://www.123pan.com/s/OP5SVv-bsC4H.html<br>
+提取码:zsxm</p>
+<!-- more -->
+<p>先看视频：</p>
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=1600426883&bvid=BV1p2421c7Cq&cid=1432917991&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<p><strong>感谢大家的关注与支持！</strong></p>
+<p>这里统一回复下大家的问题</p>
+<ol>
+<li>同一Wi-Fi下无法连接，热点下可连接，并且之前所有情况均可连接，现在却只有热点下可连接</li>
+</ol>
+<p>该问题实测是Windows造成！若之前可用，更新系统后不可用，可尝试退回旧版本的Windows再尝试。up主亲测，Windows 11 Dev/Canary频道在更新最新系统后不可使用，退回正式版即可。23H2亲测可行！</p>
+<ol start="2">
+<li>如何使用智能手环/手表进行NFC标签配置</li>
+</ol>
+<p>大致思路很简单，就是将手环/手表当NFC标签来配置。首先，肯定需要NFC版本的手环/手表，也就是有NFC功能！只需要在连接手环的App（小米运动健康/Zepp Life/Zepp/小米穿戴等）中给手环开通一个空白卡并在手环/手表上启用，之后把它当作一般的NFC标签贴对待即可！</p>
+<ol start="3">
+<li>重启后无法使用</li>
+</ol>
+<p>该问题在视频中已解答，看完视频再提问。</p>
+<ol start="4">
+<li>安装窗口变红，提示“解压不完整，请重新解压”</li>
+</ol>
+<p>该问题是由于我在编写一键安装程序的时候，于启动安装程序之前加入了对wtsapi32.dll补丁文件的检测，以确保能通过机型检测这一关。正常情况下，一键安装程序会自动将该补丁与安装程序一同解包出来，但如果一键安装程序运行在临时目录中，将检测不到补丁文件，因此必须全部解压缩后再运行一键安装程序！必须全部解压缩后再运行一键安装程序！必须全部解压缩后再运行一键安装程序！不可在压缩包中直接双击打开！</p>
+<ol start="5">
+<li>系统优化（驱动管理，垃圾清理等功能）无法使用</li>
+</ol>
+<p>这些功能只能在小米电脑上运行，别的电脑无法运行，望周知。可下载火绒等安全软件来代替。</p>
+<ol start="6">
+<li>无法查找到手机/连接失败</li>
+</ol>
+<p>该问题诱因极为复杂，可能性极多，主要有以下几种：A 手机互联互通开关未打开，在手机设置-互联互通中打开最上面的开关。B 手机不支持互联互通，手机版本必须在MIUI13及以上，HyperOS最佳，只有HyperOS才可体验满血的澎湃智联。并且有机型要求，截至问题i解答之日（24.2.20），除出厂搭载HyperOS的机型外，仅Xiaomi 13 Ultra、Xiaomi 13 Pro、Xiaomi 13、小米MIX FOLD 2、小米12S Ultra、小米12S、小米12S Pro、Xiaomi 12 Pro 天玑版、小米12、Xiaomi 12 X、小米12 Pro、小米MIX FOLD、MIX4、小米11 Ultra、小米11 Pro、小米11、小米10 至尊纪念版、小米11 青春版、小米10 Pro、 小米10S、小米10、小米10 青春版、小米9 Pro 5G、小米9、Redmi K60 Pro、Redmi K60、Redmi K60E、Redmi K40S、Redmi K50 至尊版、Redmi K50 Pro、Redmi K50 电竞版、Redmi K50、Redmi K40 游戏增强版、 Redmi K40 Pro、Redmi K40、Redmi K30s 至尊纪念版、Redmi K30 至尊纪念版、 Redmi K30 Pro、Redmi K30 5G 、Redmi K30i 5G、Redmi K30、Redmi 10X Pro、Redmi 10X 、Redmi Note 10 Pro、Redmi Note 9 Pro、Xiaomi Civi 3、Xiaomi Civi 2、Xiaomi Civi 1S、Redmi Note 12 Turbo、Redmi Note 12 Pro 极速版、Redmi Note 12 Pro、Redmi Note 12 Pro+、Redmi Note 12 潮流版、Redmi Note 12 探索版、Redmi Note 11 Pro、Redmi Note 11T Pro、Redmi Note 11T Pro+ 这些机型支持与电脑互联。若手机不在该列表内，则不可使用互联功能。（Root强开不讨论）。</p>
+<ol start="7">
+<li>与平板互联功能不正常</li>
+</ol>
+<p>与平板互联的功能要求电脑有核显，无核显的话功能不正常。</p>
+<ol start="8">
+<li>手机投屏延迟大，操控不顺畅</li>
+</ol>
+<p>使用Wi-Fi6、蓝牙5.0及以上的技术标准，连接5GWi-Fi，并将路由器Wi-Fi信道调整至149及以上即可解决。</p>
+<ol start="9">
+<li>其他疑难杂症</li>
+</ol>
+<p>手机上的问题先重启看是否解决，电脑上的问题卸载小米电脑管家，重启后重新安装看是否解决，电脑硬件异常（自带摄像头不可用之类的问题）的话重装驱动。</p>
+<p><strong>记得多多三连转发哦！</strong></p>
+]]></content>
+    </entry>
+</feed>
